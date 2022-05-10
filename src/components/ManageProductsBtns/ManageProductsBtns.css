@@ -1,0 +1,26 @@
+.seller_products_nav a {
+    width: 225px;
+    height: 49px;
+    margin-left: 31px;
+}
+
+.seller_products_nav a button {
+    background: white;
+    color: #264753;
+    cursor: pointer;
+    border: none;
+    outline: none !important;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 6px;
+}
+
+.seller_products_nav a:hover {
+    text-decoration: none;
+}
+
+.seller_products_nav a.active button {
+    background: #264753;
+    color: white;
+
+}

@@ -1,0 +1,199 @@
+.full_card {
+    height: 609px;
+    margin-top: 43px;
+    padding: 16px 39px 30px 55px;
+    background: white;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.50);
+    border-top: #00313d solid 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.full_card_title {
+    font-size: 45px;
+    color: #00313d;
+}
+
+.full_card_item1 {
+    width: 23%;
+    height: 420px;
+    border-radius: 10px;
+    background: url("../../images/pharma1.png") center;
+    background-size: cover;
+    margin-top: 16px;
+}
+
+.full_card_item2, .full_card_item3 {
+    width: 29%;
+    height: 420px;
+    margin-left: 43px;
+    margin-top: 16px;
+}
+
+.full_card_item1_title {
+    height: 150px;
+    border-bottom-left-radius: 10px;
+    padding: 16px;
+    font-size: 20px;
+    color: #ffffff;
+    border-bottom-right-radius: 10px;
+    backdrop-filter: blur(30px);
+}
+
+.item2_item, .item3_item {
+    height: 191px;
+}
+
+.item2_item img, .item3_item img {
+    border-radius: 10px;
+    margin-right: 19px;
+    width: 65%;
+    height: 100%;
+}
+
+.item2_item h6, .item3_item h6 {
+    padding-top: 9px;
+    font-size: 20px;
+    color: #00313D;
+}
+
+.full_card_more_btn {
+    width: 117px;
+    height: 40px;
+    background: #00313d;
+    border: none;
+    outline: none;
+    font-family: Poppins, sans-serif;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.full_card_more_btn:hover {
+    background: none;
+    color: #00313d;
+    border: solid #00313d;
+}
+
+.item2_item p, .item3_item p {
+    color: #00313D;
+    font-size: 16px;
+}
+
+@media (max-width: 1300px) {
+    .full_card_title {
+        font-size: 37px;
+    }
+
+    .full_card_item1_title {
+        font-size: 18px;
+    }
+
+    .full_card_item1 {
+        width: 25%;
+    }
+
+    .full_card_item2 img, .full_card_item3 img {
+        width: 60%;
+    }
+
+    .full_card_item2, .full_card_item3 {
+        width: 33%;
+    }
+}
+
+@media (max-width: 1150px) {
+    .full_card_item1 {
+        width: 25%;
+    }
+
+    .full_card_item2 img, .full_card_item3 img {
+        width: 55%;
+    }
+
+    .full_card_item2, .full_card_item3 {
+        width: 33%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .full_card {
+        padding-bottom: 24px;
+    }
+
+    .full_card_title {
+        font-size: 25px;
+    }
+
+    .full_card_item1 {
+        width: 40%;
+    }
+
+    .full_card_item2 {
+        width: 60%;
+    }
+
+    .full_card_item3 {
+        display: none !important;
+    }
+
+    .full_card_more_btn {
+        width: 105px;
+        height: 36px;
+    }
+}
+
+@media (max-width: 767px) {
+    .full_card {
+        width: 360px;
+        height: 233px;
+        padding: 7px 12px 8px 17px;
+    }
+
+    .full_card_title {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+
+    .full_card_item1 {
+        margin-top: 5px;
+        height: 160px;
+    }
+
+    .full_card_item1_title {
+        padding: 5px;
+        height: 47px;
+        font-size: 7px;
+    }
+
+    .full_card_item2 {
+        margin-top: 5px;
+        margin-left: 13px;
+        height: 160px;
+    }
+
+    .item2_item {
+        height: 75px;
+    }
+
+    .item2_item h6 {
+        font-size: 10px;
+    }
+
+    .item2_item p {
+        font-size: 8px;
+    }
+
+    .full_card_more_btn {
+        width: 52px;
+        height: 18px;
+        font-size: 6px;
+        margin: 11px 0;
+    }
+
+    .full_card_more_btn:hover {
+        background: none;
+        color: #00313d;
+        border: solid #00313d 2px;
+    }
+}

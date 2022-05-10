@@ -1,0 +1,75 @@
+.scheduler_calendar {
+    box-sizing: border-box;
+    height: 230px;
+}
+
+.scheduler_calendar .header {
+    color: #00313D;
+    text-align: center;
+    display: flex;
+    padding: 0 10px;
+    height: min-content;
+    background: transparent;
+    font-size: 14px;
+}
+
+.scheduler_calendar .day-names {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto 0 auto;
+    align-items: center;
+    font-size: 8px;
+}
+
+.scheduler_calendar .header i {
+    font-size: 11px;
+    margin: 0 3px;
+}
+
+.scheduler_calendar .week {
+    width: calc(100% / 7);
+    text-align: center;
+    text-transform: uppercase;
+    color: #939393;
+}
+
+.scheduler_calendar .week div {
+    width: 100%;
+}
+
+.scheduler_calendar .day {
+    position: relative;
+    width: calc(100% / 7);
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    z-index: 1;
+    text-align: center;
+}
+
+.scheduler_calendar .day div {
+    position: relative;
+    z-index: 100;
+    line-height: 30px;
+    font-size: 11px;
+}
+
+.scheduler_calendar .day div.before {
+    color: #00313d;
+    opacity: 50%;
+}
+
+.scheduler_calendar .day div.selected {
+    border: solid #009589 2px;
+    border-radius: 4px;
+    color: #009589;
+}
+
+.scheduler_calendar .day div.today {
+    color: #009589;
+}
+
+.header.light, .day.light, .scheduler_calendar .day div.before.light  {
+    color: #5BFBDD !important;
+}

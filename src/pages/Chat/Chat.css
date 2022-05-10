@@ -1,0 +1,375 @@
+.chat_page_wrapper {
+    background: #264753;
+    overflow: auto;
+}
+
+.chat_page {
+    border-radius: 35px 0 0 35px;
+    background: #E3FFED;
+    padding: 13px 30px 32px 30px;
+}
+
+.chat_page_top button {
+    padding: 1px 28px;
+    color: #00313D;
+    background: white;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    outline: none !important;
+    margin: 0 16px;
+}
+
+.chat_page_content_wrapper {
+    margin-top: 13px;
+}
+
+.chat_page_conversations {
+    width: 23%;
+}
+
+.search_person_input {
+    height: 45px;
+    border-radius: 8px;
+    background: white;
+    padding: 10px 21px;
+}
+
+.search_person_input input {
+    border: none;
+    outline: none !important;
+    font-size: 13px;
+}
+
+.chat_page_my_avatar {
+    height: 209px;
+    border-radius: 6px;
+    background: white;
+    margin-top: 17px;
+    padding: 28px 0 40px 0;
+    overflow: hidden;
+}
+
+.my_avatar_img {
+    width: 83px;
+    height: 83px;
+}
+
+.chat_page_my_avatar h5 {
+    font-size: 21px;
+    color: #00313D;
+    font-weight: 650;
+    margin: 10px 0 0 0;
+}
+
+.chat_page_my_avatar h6 {
+    font-size: 14px;
+    color: #939393;
+    font-weight: 650;
+    margin: 0;
+}
+
+.active_conversations_list {
+    margin-top: 23px;
+}
+
+.active_conversations_list h5 {
+    font-size: 21px;
+    color: #00313D;
+    font-weight: 600;
+}
+
+.active_conversations_count {
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+
+.chat_page_body {
+    width: 55%;
+    height: 688px;
+    border-radius: 6px;
+    background: url("../../images/chat_bg.png") no-repeat;
+    background-size: cover;
+}
+
+.chat_page_body_blur {
+    border-radius: 6px;
+    backdrop-filter: blur(10px) brightness(70%);
+    padding: 25px;
+}
+
+.messages_wrapper {
+    width: 100%;
+    height: 92%;
+    padding-bottom: 40px;
+    overflow-y: scroll;
+
+}
+
+.messages_wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.partner_info {
+    width: 20%;
+}
+
+.partner_message_item {
+    margin-bottom: 33px;
+}
+
+.partner_message_avatar, .my_message_avatar {
+    min-width: 47px;
+    max-width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+}
+
+.partner_message_text {
+    max-width: 40%;
+    width: max-content;
+    min-width: min-content;
+    padding: 8px 13px;
+    background: #BFFFD6;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 650;
+    margin: 5px 0 0 14px;
+}
+
+.message_texts_wrapper {
+    width: calc(100% - 61px);
+}
+
+.my_message_text {
+    max-width: 40%;
+    width: max-content;
+    min-width: min-content;
+    padding: 8px 13px;
+    background: #009589;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 650;
+    margin: 5px 14px 0 0;
+    color: white;
+}
+
+.partner_message_date {
+    font-size: 13px;
+    color: #B5B5B5;
+    font-weight: 600;
+    margin-left: 61px;
+}
+
+.my_message_date {
+    font-size: 13px;
+    color: #B5B5B5;
+    font-weight: 600;
+    margin-right: 75px;
+    float: right;
+}
+
+.message_input_wrapper {
+    width: 100%;
+    height: 56px;
+    background: #BFFFD6;
+    border-radius: 6px;
+    padding: 0 17px 0 20px;
+}
+
+.message_input_wrapper button {
+    border: none;
+    background: none;
+    padding: 0;
+    outline: none !important;
+    margin-right: 13px;
+}
+
+.message_input_wrapper input {
+    background: none;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    outline: none !important;
+}
+
+.partner_info_card {
+    height: 252px;
+    background: white;
+    border-radius: 6px;
+    padding: 28px 0 26px 0;
+}
+
+.partner_info_avatar {
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.partner_info_card h4 {
+    font-size: 21px;
+    font-weight: 650;
+    color: #00313D;
+    margin-top: 22px;
+}
+
+.partner_info_card a, .partner_info_card i {
+    color: #00313D;
+    margin: 13px 0 0 0;
+}
+
+.partner_info_card a {
+    font-size: 10px;
+    font-weight: 600;
+    margin: 13px 0 0 9px;
+}
+
+.partner_order_history h4 {
+    font-size: 18px;
+    color: #00313D;
+    font-weight: 650;
+    margin: 0;
+}
+
+.partner_order_history {
+    margin-top: 14px;
+}
+
+.partner_order_history .partner_all_order {
+    width: 90px;
+    height: 26px;
+    border-radius: 22px;
+    background: white;
+    font-size: 10px;
+    color: #264753;
+    font-weight: 650;
+    padding: 0 11px 0 15px;
+    border: none;
+    outline: none !important;
+    margin-bottom: 14px;
+}
+
+.order_history_card {
+    padding: 12px 11px 11px 19px;
+    background: white;
+    border-radius: 6px;
+}
+
+.order_history_card img {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
+
+.order_history_card h6 {
+    font-size: 12px;
+    font-weight: 650;
+    color: #00313D;
+    margin: 0;
+}
+
+.partner_action h5 {
+    font-size: 15px;
+    font-weight: 650;
+    color: #00313D;
+    margin: 18px 0 9px 0;
+}
+
+.partner_action_card {
+    padding: 12px 18px 14px 20px;
+    background: white;
+    border-radius: 6px;
+    color: #00313D;
+    font-weight: 650;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.partner_action_card p {
+    margin: 3px 0 0 7px;
+}
+
+.action_icon_wrapper {
+    width: 24px;
+}
+
+@media (max-width: 1200px) {
+    .partner_order_history h4 {
+        font-size: 16px;
+    }
+
+    .partner_order_history .partner_all_order {
+        width: 80px;
+        padding: 0 6px 0 10px;
+    }
+
+    .active_conversations_list h5 {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .partner_order_history h4 {
+        font-size: 14px;
+    }
+
+    .partner_order_history .partner_all_order {
+        width: 70px;
+        padding: 0 6px 0 6px;
+    }
+
+    .active_conversations_list h5 {
+        font-size: 18px;
+    }
+
+    .order_history_card {
+        padding: 10px;
+    }
+
+    .partner_message_text, .my_message_text {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .chat_page {
+        border-radius: 0;
+    }
+
+    .partner_info {
+        display: none;
+    }
+
+    .chat_page_body {
+        width: 60%;
+    }
+
+    .chat_page_conversations {
+        width: 38%;
+    }
+}
+
+@media (max-width: 850px) {
+    .partner_message_text, .my_message_text {
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 767px) {
+    .chat_page_body {
+        display: none !important;
+    }
+
+    .chat_page_conversations {
+        width: 100%;
+    }
+}

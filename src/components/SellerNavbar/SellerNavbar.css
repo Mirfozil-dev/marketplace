@@ -1,0 +1,103 @@
+.seller_cabinet_navbar {
+    background: #264753;
+    padding: 44px 0;
+    position: fixed;
+    z-index: 3;
+}
+
+.navigation_column {
+    width: 92px;
+    height: 100vh;
+}
+
+.seller_cabinet_navbar a {
+    text-decoration: none;
+}
+
+.navigation_column_btn, .navigation_column_more_btn {
+    border: none;
+    background: none;
+    outline: none !important;
+    color: white;
+    padding: 16px 22px;
+    transition: .3s;
+}
+
+.navigation_column_btn i {
+    width: 30px;
+    transition: .3s;
+}
+
+.navigation_column_btn p {
+    display: none;
+    text-align: start;
+    margin-left: 30px;
+    font-size: 21px;
+}
+
+.seller_cabinet_navbar .navigation_column_logo {
+    width: 49px;
+    height: 49px;
+    margin-bottom: 40px;
+    transition: .3s;
+    margin-left: 22px;
+}
+
+.navigation_column_logo:hover {
+    transform: scale(1.5);
+}
+
+@media (min-width: 1024px) {
+    .seller_cabinet_navbar:hover {
+        width: 304px;
+    }
+
+    .seller_cabinet_navbar:hover .navigation_column {
+        width: 100%;
+        align-items: start !important;
+    }
+
+    .seller_cabinet_navbar:hover .navigation_column_btn p {
+        width: 100%;
+        display: block;
+    }
+
+    .navigation_column_btn:hover {
+        background: #009589;
+    }
+
+    .navigation_column_btn:hover i {
+        transform: rotate(20deg);
+    }
+
+    .navigation_row {
+        display: none !important;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .navigation_column {
+        display: none !important;
+    }
+
+    .navigation_row {
+        width: 100vw;
+        height: 89px;
+        position: fixed;
+        bottom: 0;
+        display: flex !important;
+        background: #264753;
+    }
+
+    .navigation_row button {
+        width: 75px;
+        height: 75px;
+        color: white;
+        background: none;
+        border: none;
+        outline: none !important;
+        margin: 0 15px;
+        padding: 0;
+    }
+}

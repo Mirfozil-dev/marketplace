@@ -1,0 +1,27 @@
+.category_title_card {
+    border-radius: 0 25px;
+    border: solid white;
+}
+
+.category_title_card_body {
+    width: 93%;
+    background: white;
+    border-radius: 0 20px;
+    padding: 13px;
+}
+
+.category_title_card_body img {
+    width: 52px;
+}
+
+.category_title_card_body p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00313d;
+}
+
+@media (max-width: 767px) {
+    .category_title_card_body img {
+        width: 42px;
+    }
+}

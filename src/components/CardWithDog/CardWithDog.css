@@ -1,0 +1,67 @@
+
+.dog_card, .dog_card_skewed {
+    width: 152px;
+    height: 81px;
+    position: absolute;
+    background: linear-gradient(#FF7979, #FF4DEA, #BA38FF, #3159FF, #02FFC5, #53FF7E);
+    border-radius: 7px;
+    border: solid #E3FFED 1px;
+}
+
+.dog_card_skewed {
+    transform: skewY(-7deg);
+    z-index: 1;
+}
+
+.dog_card {
+    transform: skewY(0deg);
+    margin-top: 10px;
+}
+
+.dog_card:after, .dog_card_skewed:after {
+    content: '';
+    width: 100.5%;
+    height: 101.5%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(25px) brightness(120%) opacity(80%);
+    border-radius: 7px;
+    top: -1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.dog_card span {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: absolute;
+    padding: 10px;
+    transform: skewY(-7deg);
+}
+
+.dog_card span h5 {
+    font-size: 11px;
+    color: #00313D;
+    font-weight: 650;
+    margin: 0;
+}
+
+.dog_card span p {
+    font-size: 9px;
+    color: #4D4D4D;
+    font-weight: 650;
+}
+
+.dog_card span img {
+    position: absolute;
+    left: -35px;
+    bottom: 0;
+}
+
+.dog_card_progress_bar_wrapper {
+    margin-top: 10px;
+    width: 70%;
+    height: 10px;
+}

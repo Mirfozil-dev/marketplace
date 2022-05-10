@@ -1,0 +1,463 @@
+.analytics_page_wrapper {
+    background: #264753;
+}
+
+.analytics_page {
+    border-radius: 35px 0 0 35px;
+    background: #E3FFED;
+    padding: 45px 36px 23px 46px;
+}
+
+.analytics_page_content {
+    width: 75%;
+    height: 100%;
+}
+
+.analytics_sidebar {
+    width: 20%;
+    height: 100%;
+}
+
+.analytics_header {
+    height: 134px;
+    background: url("../../images/analytics_header.png");
+    border-radius: 6px;
+    padding: 21px 31px 16px 28px;
+}
+
+.analytics_my_country {
+    font-size: 23px;
+    font-weight: 650;
+    margin: 0;
+}
+
+.analytics_day {
+    font-size: 24px;
+    font-weight: 650;
+    margin: 0;
+}
+
+.analytics_day span {
+    font-size: 17px;
+    color: #9B9B9B;
+    font-weight: 650;
+    margin: 0;
+}
+
+.analytics_weather_degree {
+    margin-right: 74px;
+}
+
+.analytics_weather_degree h5 {
+    font-size: 23px;
+    font-weight: 650;
+}
+
+.analytics_weather_degree p {
+    font-size: 10px;
+    color: #D8D8D8;
+    display: table-caption;
+    text-align: end;
+}
+
+.weather_yesterday img, .weather_tomorrow img {
+    width: 20px;
+}
+
+.weather_yesterday p, .weather_tomorrow p {
+    font-size: 13px;
+    font-weight: 650;
+    color: #9B9B9B;
+    margin-left: 6px;
+}
+
+.weather_today img {
+    width: 34px;
+}
+
+.weather_today p {
+    font-size: 23px;
+    font-weight: 650;
+    margin-left: 6px;
+}
+
+.activity_card {
+    width: 20%;
+    height: 246px;
+    background: white;
+    border-radius: 10px;
+    margin-top: 32px;
+}
+
+.tasks_card {
+    width: 20%;
+    height: 246px;
+    background: white;
+    border-radius: 10px;
+    margin-top: 32px;
+    overflow-y: scroll;
+    overflow-x: visible;
+    z-index: 1;
+    position: relative;
+    padding-bottom: 16px;
+}
+
+.tasks_card::-webkit-scrollbar {
+    display: none;
+}
+
+.website_view_card {
+    width: 29%;
+    height: 246px;
+    background: white;
+    border-radius: 10px;
+    margin-top: 32px;
+}
+
+.product_view_card {
+    width: 23%;
+    height: 246px;
+    background: white;
+    border-radius: 10px;
+    margin-top: 32px;
+}
+
+.analytics_card_header {
+    height: 46px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 15px rgba(182, 182, 182, 0.5);
+    padding: 0 21px;
+}
+
+.analytics_card_header h5 {
+    font-size: 15px;
+    color: #00313D;
+    font-weight: 650;
+}
+
+.activities_count {
+    padding: 0 12px;
+    border-radius: 10px;
+    background: #E6FFEE;
+    border: solid #29FF75 2px;
+    font-size: 10px;
+    font-weight: 650;
+    color: #00313D;
+}
+
+.activity_card_body, .tasks_card_body, .website_view_card_body, .product_view_card_body {
+    height: calc(100% - 46px);
+    padding: 17px 0 16px 0;
+}
+
+.analytics_activity_item {
+    margin-bottom: 9px;
+    padding: 0 0 0 21px;
+}
+
+.analytics_activity_item img {
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+}
+
+.analytics_activity_item h5 {
+    font-size: 12px;
+    color: #00313D;
+    margin: 0 0 0 9px;
+}
+
+.analytics_activity_item p {
+    font-size: 8px;
+    color: #9B9B9B;
+    margin-left: 9px;
+}
+
+.activities_show_all_btn {
+    width: 67px;
+    height: 21px;
+    border-radius: 3px;
+    background: #E6FFEE;
+    border: solid #29FF75 2px;
+    font-size: 8px;
+    font-weight: 650;
+    color: #00313D;
+    margin-top: auto;
+    outline: none !important;
+}
+
+.add_task_btn {
+    background: none;
+    outline: none !important;
+    border: none;
+    color: #00313D;
+    cursor: pointer;
+}
+
+.task_item {
+    padding: 0 15px 9px 20px;
+}
+
+.task_item p {
+    font-size: 11px;
+    color: #00313D;
+    margin-left: 8px;
+}
+
+.task_status {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: solid #29FF75 2px;
+}
+
+.task_item.completed {
+    opacity: 38%;
+}
+
+.task_item.completed .task_status {
+    background: #29FF75;
+}
+
+.add_task_dropdown {
+    width: 200px;
+    height: 117px;
+    background: white;
+    border-radius: 9px;
+    padding: 12px 14px 15px 16px;
+    position: absolute;
+    top: 46px;
+    left: 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    z-index: -2;
+    opacity: 0;
+    transition: .3s;
+}
+
+.add_task_dropdown.active {
+    z-index: 1;
+    opacity: 1;
+}
+
+.add_task_dropdown h5 {
+    font-size: 15px;
+    color: #00313D;
+    font-weight: 650;
+}
+
+.add_task_dropdown input {
+    border: none;
+    outline: none !important;
+    font-size: 13px;
+}
+
+.add_task_dropdown button {
+    width: 73px;
+    height: 25px;
+    border-radius: 4px;
+    border: solid #09D151 2px;
+    background: #E0FCEA;
+    font-size: 13px;
+    color: #00313D;
+    outline: none !important;
+    margin: auto 0 0 auto;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.tasks_card .analytics_card_header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+.product_view_item {
+    width: 42%;
+    height: 52px;
+    border-radius: 0 10px 10px 0;
+}
+
+.product_view_item p {
+    font-size: 9px;
+    font-weight: 650;
+    color: #554B86;
+}
+
+.product_view_item h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.product_view_item span {
+    width: 2px;
+    background: white;
+    margin-right: 9px;
+}
+
+.product_view_item.purple {
+    background: #EEECF9;
+    color: #554B86;
+    border-left: solid #62559D;
+}
+
+.product_view_item.rose {
+    background: #FFF8FA;
+    border-left: solid #FD4E71;
+}
+
+.product_view_item.rose h6 {
+    color: #DF0A56;
+}
+
+.product_view_item.green {
+    background: #E6FFF8;
+    border-left: solid #28D7A6;
+}
+
+.product_view_item.green h6 {
+    color: #26A26B;
+}
+
+.product_view_item.gold {
+    background: #FFF4D5;
+    border-left: solid #FFCC3C;
+}
+
+.product_view_item.gold h6 {
+    color: #554B86;
+}
+
+
+.product_view_card_body {
+    padding: 0 9px 0 15px;
+}
+
+.product_view_show_all_btn {
+    width: 97px;
+    height: 25px;
+    border-radius: 3px;
+    background: #E6FFEE;
+    border: solid #29FF75 2px;
+    font-size: 8px;
+    color: #00313D;
+    font-weight: 650;
+}
+
+.product_view_graph {
+    width: 51%;
+    height: 266px;
+    background: white;
+    border-radius: 14px;
+    margin-top: 22px;
+    margin-right: 20px;
+    padding: 26px 25px 22px 34px;
+}
+
+.responses_for_quotes {
+    width: 46%;
+    height: 266px;
+    background: white;
+    border-radius: 14px;
+    margin-top: 22px;
+    padding: 16px 20px 24px 20px;
+}
+
+.calculator_wrapper {
+    max-width: 200px;
+    height: 278px;
+    margin-top: 15px;
+}
+
+.column_chart_wrapper {
+    padding: 0 31px 0 21px;
+}
+
+.responses_for_quotes h5 {
+    font-size: 14px;
+    color: #00313D;
+    font-weight: 650;
+}
+
+.analytics_calendar {
+    max-width: 200px;
+}
+
+.analytics_my_all_products {
+    height: 158px;
+    margin-top: 42px;
+}
+
+.analytics_my_all_products h5 {
+    font-size: 14px;
+    font-weight: 650;
+    color: #00313D;
+}
+
+.analytics_my_all_products_card, .analytics_my_all_products_card_skewed {
+    width: 152px;
+    height: 81px;
+    position: absolute;
+    background: linear-gradient(#FF7979, #FF4DEA, #BA38FF, #3159FF, #02FFC5, #53FF7E);
+    border-radius: 7px;
+    border: solid #E3FFED 1px;
+}
+
+.analytics_my_all_products_card_skewed {
+    transform: skewY(-7deg);
+    z-index: 1;
+}
+
+.analytics_my_all_products_card {
+    transform: skewY(0deg);
+    margin-top: 10px;
+}
+
+.analytics_my_all_products_card:after, .analytics_my_all_products_card_skewed:after {
+    content: '';
+    width: 100.5%;
+    height: 101.5%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(25px) brightness(120%) opacity(80%);
+    border-radius: 7px;
+    top: -1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.analytics_my_all_products_card span {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: absolute;
+    padding: 10px;
+    transform: skewY(-7deg);
+}
+
+.analytics_my_all_products_card span h5 {
+    font-size: 11px;
+    color: #00313D;
+    font-weight: 650;
+    margin: 0;
+}
+
+.analytics_my_all_products_card span p {
+    font-size: 9px;
+    color: #4D4D4D;
+    font-weight: 650;
+}
+
+.analytics_my_all_products_card span img {
+    position: absolute;
+    left: -35px;
+    bottom: 0;
+}
+
+.analytics_progress_bar_wrapper {
+    margin-top: 10px;
+    width: 70%;
+    height: 10px;
+}

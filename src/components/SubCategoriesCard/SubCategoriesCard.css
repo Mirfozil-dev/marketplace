@@ -1,0 +1,52 @@
+.subcategories_card {
+    border-radius: 10px;
+    border: solid white;
+}
+
+.subcategories_card_body {
+    width: 96%;
+    background: white;
+    border-radius: 7px;
+    padding: 9px 20px 25px 14px;
+}
+
+.subcategories_card_header h3 {
+    font-size: 20px;
+    color: #007591;
+    font-weight: 550;
+    margin: 0;
+}
+
+.subcategories_card_content {
+    margin-top: 9px;
+}
+
+.subcategories_card_header p {
+    font-size: 11px;
+    color: #898989;
+    font-weight: bold;
+    margin: 0 0 2px 4px;
+}
+
+.subcategories_card_content p {
+    font-size: 13px;
+    color: #00313D;
+}
+
+@media (max-width: 767px) {
+    .subcategories_card_header h3 {
+        font-size: 18px;
+    }
+
+    .subcategories_card_header p {
+        font-size: 12px;
+    }
+
+    .subcategories_card_content p {
+        font-size: 14px;
+    }
+
+    .subcategories_card_body {
+        padding: 14px 15px 20px 15px;
+    }
+}

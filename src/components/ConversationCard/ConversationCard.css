@@ -1,0 +1,59 @@
+.conversation_card {
+    height: 56px;
+    border-radius: 6px;
+    background: white;
+    border: solid transparent;
+    padding: 13px 21px;
+    margin-bottom: 18px;
+}
+
+.conversation_card.active {
+    border: solid #00E596;
+}
+
+.conversation_card_avatar {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.conversation_card h5 {
+    width: 60%;
+    font-size: 17px;
+    font-weight: 650;
+    color: #00313D;
+    margin: auto 0 auto 19px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.messages_count {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #00E596;
+    color: white;
+    font-size: 9px;
+    font-weight: 550;
+    float: right;
+}
+
+.conversation_card_avatar span {
+    width: 11px;
+    height: 11px;
+    background: #00E596;
+    border-radius: 50%;
+    border: solid white 2px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 20px;
+}
+
+@media (max-width: 1150px) {
+    .conversation_card {
+        padding: 7px;
+    }
+}

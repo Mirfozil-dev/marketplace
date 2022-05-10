@@ -1,0 +1,14 @@
+.header {
+    background: #E8E8E8;
+    height: 50px;
+    padding: 11px 32px 8px 34px;
+    font-family: Poppins, sans-serif;
+}
+
+@media (max-width: 767px) {
+    .header {
+        height: 22px;
+        padding: 6px 20px 6px 20px;
+        font-size: 10px;
+    }
+}

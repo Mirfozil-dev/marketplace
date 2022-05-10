@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.App {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+p {
+    margin: 0;
+}
+
+.custom_container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1372px !important;
+    padding: 0 34px;
+}
+
+
+@media (max-width: 1024px) {
+    .custom_container {
+        max-width: 736px !important;
+        padding: 0 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .custom_container {
+        max-width: 360px !important;
+        padding: 0 8px;
+    }
+}

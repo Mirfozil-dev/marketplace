@@ -1,0 +1,50 @@
+.question_search_input {
+    width: 477px;
+    border-radius: 43px;
+    background: white;
+    padding: 14px 28px;
+}
+
+.question_search_input img {
+    width: 32px;
+    height: 32px;
+}
+
+.question_search_input input {
+    border: none;
+    outline: none !important;
+}
+
+@media (max-width: 1250px) {
+    .question_search_input {
+        width: 85%;
+    }
+
+    .question_search_input img {
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+@media (max-width: 950px) {
+    .question_search_input {
+        padding: 10px 18px;
+    }
+
+    .question_search_input input {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 767px) {
+    .question_search_input {
+        width: 100%;
+        padding: 10px 17px;
+    }
+
+    .question_search_input img {
+        width: 16px;
+        height: 16px;
+    }
+}

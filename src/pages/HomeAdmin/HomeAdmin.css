@@ -1,0 +1,143 @@
+.admin_home__wrapper {
+    width: 100%;
+    background: #222222;
+    padding-right: 47px;
+}
+
+.admin_home__header {
+    padding-top: 29px;
+}
+
+.admin_home__search {
+    max-width: 419px;
+    width: 100%;
+    height: 49px;
+    border: solid #5C5C5C 1px;
+    background: #2E2E2E;
+    border-radius: 35px;
+    padding: 0 32px;
+}
+
+.admin_home__search input {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.admin_header__data {
+    max-width: 309px;
+    width: 100%;
+
+}
+
+.admin_header__data h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.admin_header__control {
+    margin-right: -42px;
+}
+
+.admin_header__control button {
+    width: 35px;
+    height: 35px;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin-right: 42px;
+}
+
+.admin_home_content {
+    width: 75%;
+}
+
+.admin_home_welcome {
+    height: 185px;
+    border-radius: 15px;
+    background: #4D4D4D;
+    border: solid #656565 3px;
+    margin-top: 19px;
+    position: relative;
+}
+
+.admin_home_welcome h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.admin_home_welcome h2 span {
+    color: white;
+}
+
+.admin_home_welcome_content {
+    padding: 22px 0 29px 35px;
+    width: 50%;
+}
+
+.admin_welcome_wish {
+    font-size: 15px;
+    color: white;
+}
+
+.admin_welcome_tasks {
+    color: white;
+    font-size: 15px;
+}
+
+.admin_home_welcome img {
+    width: 32%;
+    position: absolute;
+    right: 0px;
+    top: -100px;
+}
+
+.admin_home_ranking {
+    width: 40%;
+}
+
+.admin_home_advertisement, .admin_home_topsold {
+    width: 59%;
+}
+
+.admin_home_ranking, .admin_home_advertisement, .admin_home_topsold {
+    border-radius: 15px;
+    background: #4D4D4D;
+    border: solid #656565 3px;
+    height: 108px;
+    margin-top: 21px;
+    padding: 0 37px;
+}
+
+.admin_home_ranking .ranking_item h3 {
+    font-size: 20px;
+    color: #FFC188;
+    margin: 0;
+}
+
+.admin_home_ranking .ranking_item h3 span {
+    font-size: 16px;
+    color: #12FF64;
+}
+
+.admin_home_ranking .ranking_item p {
+    color: white;
+    font-size: 14px;
+}
+
+.admin_home_ranking .ranking_item p span {
+    font-size: 16px;
+    color: #939393;
+}
+
+.admin_home_sidecontent {
+    width: 24%;
+}
+
+.admin_home_calendar {
+    padding-left: 50px;
+}

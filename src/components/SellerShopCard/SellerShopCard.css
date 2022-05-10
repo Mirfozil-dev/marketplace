@@ -1,0 +1,50 @@
+.seller_shop_card {
+    position: relative;
+}
+
+.seller_shop_card img {
+    object-fit: cover;
+}
+
+.seller_shop_card_body {
+    position: absolute;
+    bottom: 13px;
+    left: 50%;
+    margin-left: -43.5%;
+    width: 87%;
+    padding: 11px 15px 10px 15px;
+    background: white;
+    border-radius: 2px;
+}
+
+.seller_shop_card_body h6 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #00313D;
+    margin: 0;
+}
+
+.seller_shop_card_body p {
+    font-size: 9px;
+    color: #626262;
+}
+
+.seller_shop_card_body h5 {
+    font-size: 16px;
+    color: #00313D;
+    margin: 0;
+}
+
+.seller_shop_card_body button {
+    padding: 0;
+    background: none;
+    outline: none !important;
+    border: none;
+    margin-left: 10px;
+}
+
+.seller_shop_card_body button img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}

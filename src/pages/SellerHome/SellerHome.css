@@ -1,0 +1,388 @@
+.seller_home_wrapper {
+    width: 100%;
+    height: 100%;
+    background: #264753;
+}
+
+.seller_home {
+    border-radius: 35px 0 0 35px;
+    background: #E3FFED;
+}
+
+.seller_home_content {
+    width: 75%;
+    padding: 17px 53px 26px 54px;
+    margin-right: 25%;
+}
+
+.seller_home_search_input {
+    height: 38px;
+    background: white;
+    padding: 9px 20px;
+    border-radius: 8px;
+}
+
+.seller_home_search_input input {
+    border: none;
+    outline: none !important;
+}
+
+.switch_role_btn {
+    border-radius: 5px;
+    border: none;
+    outline: none !important;
+    background: #264753;
+    color: white;
+    font-size: 11px;
+    padding: 12px 30px;
+    margin-left: 43px;
+}
+
+.switch_lang_btn {
+    background: none;
+    outline: none !important;
+    border: none;
+    color: #264753;
+    font-size: 14px;
+    margin-left: 27px;
+
+}
+
+.switch_lang_btn i {
+    font-size: 10px;
+    margin: 5px 0 0 4px;
+}
+
+.seller_home_sidebar {
+    width: 25%;
+    height: 100%;
+    background: white;
+    padding: 46px 28px 18px 28px;
+    position: fixed;
+    right: 0;
+}
+
+.seller_home_welcome {
+    height: 185px;
+    border-radius: 15px;
+    background: white;
+    margin-top: 19px;
+}
+
+.seller_home_welcome h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.seller_home_welcome h2 span {
+    color: #007591;
+}
+
+.seller_home_welcome_content {
+    padding: 22px 0 29px 35px;
+    width: 50%;
+}
+
+.seller_welcome_wish {
+    font-size: 15px;
+    color: #606060;
+}
+
+.seller_welcome_tasks {
+    color: #AAAAAA;
+    font-size: 15px;
+}
+
+.seller_ranking_process {
+    margin-top: 18px;
+}
+
+.seller_ranking_process h2 {
+    color: #00313D;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.progress_bar_wrapper {
+    width: 10%;
+    height: 19px;
+}
+
+.ranking_process_item p {
+    font-size: 15px;
+    color: #00313D;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.ranking_process_item img {
+    width: 50px;
+    height: 50px;
+}
+
+.seller_weekly_report h2 {
+    font-size: 22px;
+    color: #00313D;
+    font-weight: bold;
+    margin-top: 9px;
+}
+
+.report_card_wrapper {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    height: 175px;
+    padding: 0 15px;
+}
+
+.seller_recommendation_quotations {
+    margin-top: 20px;
+}
+
+.seller_recommendation_quotations_header h2 {
+    font-size: 22px;
+    color: #00313D;
+    font-weight: bold;
+}
+
+.seller_recommendation_quotations_header p {
+    color: #626262;
+    font-size: 12px;
+    margin-left: 22px;
+}
+
+.quotation_table_name {
+    width: 20%;
+}
+
+.quotation_table_product {
+    width: 10%;
+}
+
+.quotation_table_quantity {
+    width: 7%;
+}
+
+.quotation_table_date {
+    width: 8%;
+}
+
+.quotation_table_time {
+    width: 7%;
+}
+
+.quotation_table_location {
+    width: 16%;
+}
+
+.quotation_table_head_item p {
+    font-size: 12px;
+    color: #00313D;
+}
+
+.quotation_table_head_item img {
+    margin: 3px 0 0 3px;
+}
+
+.quotation_table_row {
+    background: white;
+    z-index: 1;
+    border-radius: 8px;
+    height: 54px;
+    margin-top: 13px;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.quotation_avatar {
+    width: 27px;
+    height: 27px;
+    border-radius: 5px;
+    margin-right: 19px;
+}
+
+.quotation_table_body_item p {
+    font-size: 13px;
+    color: #00313D;
+    font-weight: 600;
+}
+
+.quotation_table_more_btn {
+    background: none;
+    border: none;
+    outline: none !important;
+    font-weight: 600;
+    color: #00313D;
+}
+
+.quotation_table_settings_btn {
+    width: 23px;
+    height: 23px;
+    background: white;
+    border-radius: 4px;
+    border: none;
+    outline: none !important;
+}
+
+.quotation_table_row:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    background: #00313d;
+    position: absolute;
+    border-radius: 8px;
+    z-index: -1;
+    transition: .3s;
+}
+
+.quotation_table_row:hover:before {
+    top: 0;
+}
+
+.quotation_table_row:hover .quotation_table_body_item p {
+    color: white;
+}
+
+.seller_home_sidebar_header button {
+    width: 17px;
+    height: 17px;
+    background: none;
+    outline: none !important;
+    border: none;
+    position: relative;
+    margin-right: 18px;
+    padding: 0;
+}
+
+.seller_home_sidebar_header button div {
+    top: 5px;
+    left: 11px;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #FF1D40;
+}
+
+.seller_home_sidebar_header h5 {
+    font-size: 17px;
+    color: #00313D;
+    font-weight: bold;
+}
+
+.seller_home_sidebar_header p {
+    font-size: 8px;
+    color: #707070;
+}
+
+.seller_avatar {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+
+.seller_home_sidebar_nav {
+    margin-top: 31px;
+}
+
+.seller_home_sidebar_nav button {
+    background: none;
+    border: none;
+    outline: none !important;
+    font-size: 9px;
+    color: #00313D;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.seller_home_sidebar_nav button img {
+    margin-right: 7px;
+    width: 15px;
+}
+
+.seller_home_monthly_report {
+    margin-top: 34px;
+    color: #00313D;
+}
+
+.seller_home_monthly_report h2 {
+    font-size: 15px;
+}
+
+.monthly_report_card_wrapper {
+    width: 78px;
+    height: 96px;
+}
+
+.monthly_report_card_row {
+    margin-top: 15px;
+}
+
+.monthly_analytics {
+    margin-top: 24px;
+    height: 170px;
+}
+
+.monthly_analytics h2 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #00313D;
+}
+
+.need_help_btn {
+    width: 152px;
+    height: 42px;
+    background: #FFF3B0;
+    border: solid #E19F3E;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #00313D;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.seller_home_sidebar a:hover {
+    text-decoration: none !important;
+}
+
+@media (max-width: 1240px) {
+    .seller_home_welcome_content {
+        width: 60%;
+    }
+
+    .ranking_process_item p {
+        font-size: 13px;
+    }
+
+    .seller_home_content {
+        padding: 17px 53px 26px 24px;
+    }
+
+    .seller_home_sidebar {
+        padding: 46px 18px 18px 18px;
+    }
+
+    .monthly_report_card_wrapper {
+        width: 68px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .seller_home_wrapper {
+        width: 100% !important;
+    }
+
+    .seller_home_sidebar {
+        display: none !important;
+    }
+
+    .seller_home_content {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .seller_home {
+        border-radius: 0;
+    }
+}

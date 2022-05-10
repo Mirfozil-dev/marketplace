@@ -1,0 +1,14 @@
+.add_report_card {
+    background: #FFF7C7;
+    border-radius: 9px;
+    border: dashed #00313D 2px;
+}
+
+.add_report_card button {
+    font-size: 69px;
+    color: #00313D;
+    font-weight: bold;
+    background: none;
+    border: none;
+    outline: none !important;
+}

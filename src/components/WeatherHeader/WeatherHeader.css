@@ -1,0 +1,63 @@
+.analytics_header {
+    height: 134px;
+    border-radius: 6px;
+    padding: 21px 31px 16px 28px;
+    background: url("../../images/analytics_header.png") center no-repeat;
+    background-size: cover;
+}
+
+.analytics_my_country {
+    font-size: 23px;
+    font-weight: 650;
+    margin: 0;
+}
+
+.analytics_day {
+    font-size: 24px;
+    font-weight: 650;
+    margin: 0;
+}
+
+.analytics_day span {
+    font-size: 17px;
+    color: #9B9B9B;
+    font-weight: 650;
+    margin: 0;
+}
+
+.analytics_weather_degree {
+    margin-right: 74px;
+}
+
+.analytics_weather_degree h5 {
+    font-size: 23px;
+    font-weight: 650;
+}
+
+.analytics_weather_degree p {
+    font-size: 10px;
+    color: #D8D8D8;
+    display: table-caption;
+    text-align: end;
+}
+
+.weather_yesterday img, .weather_tomorrow img {
+    width: 20px;
+}
+
+.weather_yesterday p, .weather_tomorrow p {
+    font-size: 13px;
+    font-weight: 650;
+    color: #9B9B9B;
+    margin-left: 6px;
+}
+
+.weather_today img {
+    width: 34px;
+}
+
+.weather_today p {
+    font-size: 23px;
+    font-weight: 650;
+    margin-left: 6px;
+}

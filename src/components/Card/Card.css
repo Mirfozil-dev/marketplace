@@ -1,0 +1,141 @@
+.card_imgs_wrapper {
+    width: 100%;
+    height: 182px;
+}
+
+.card {
+    max-width: 257px;
+    height: 362px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.50);
+}
+
+.card_title {
+    font-size: 25px;
+    margin: 28px 0 39px 0;
+}
+
+.card_img {
+    max-width: 152px;
+    height: 115px;
+}
+
+.card_scroll_nav_item {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: solid #00313D 1px;
+    margin: 0 3px;
+}
+
+.card_scroll_nav {
+    margin: 0 -3px;
+}
+
+.card_scroll_nav_item.active {
+    background: #00313D;
+}
+
+.card_footer .card_btn {
+    width: 117px;
+    height: 40px;
+    background: #00313d;
+    border: none;
+    outline: none;
+    font-family: Poppins, sans-serif;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 24px 0;
+    transition: 0.3s;
+}
+
+.card_footer .card_btn:hover {
+    background: none;
+    color: #00313d;
+    border: solid #00313d;
+}
+
+.card_price {
+    color: #A8342D;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 21px;
+}
+
+.card_img__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    transition: .3s;
+}
+
+.card_img__item.active {
+    z-index: 1;
+    opacity: 1;
+}
+
+@media (max-width: 1024px) {
+    .card {
+        max-width: 231px;
+        max-height: 353px;
+    }
+
+    .card_title {
+        font-size: 22px;
+        margin: 26px 0 17px 0;
+    }
+
+    .card_footer .card_btn {
+        width: 105px;
+        height: 36px;
+    }
+}
+
+@media (max-width: 767px) {
+    .card {
+        width: 159px;
+        height: 230px;
+    }
+
+    .card_title {
+        font-size: 16px;
+        margin: 21px 0 15px 0;
+    }
+
+    .card_price {
+        font-size: 12px;
+    }
+
+    .card_scroll_nav_item {
+        width: 4px;
+        height: 4px;
+        margin-bottom: 9px;
+    }
+
+    .card_img {
+        height: 85px;
+        object-fit: contain;
+    }
+
+    .card_price {
+        margin-bottom: 19px;
+    }
+
+    .card_footer .card_btn {
+        width: 80px;
+        height: 29px;
+        font-size: 10px;
+        margin: 0 0 19px 0;
+    }
+
+    .card_footer .card_btn:hover {
+        background: none;
+        color: #00313d;
+        border: solid #00313d 2px;
+    }
+
+}

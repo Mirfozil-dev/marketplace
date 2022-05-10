@@ -1,0 +1,24 @@
+.category_banner {
+    width: 100%;
+    height: 327px;
+    background: url("../../images/category-banner.png");
+}
+
+.category_banner_blur {
+    backdrop-filter: blur(30px) brightness(115%) !important;
+    font-size: 61px;
+    color: #00313D;
+    font-weight: bold;
+    padding: 0 30%;
+}
+
+@media (max-width: 767px) {
+    .category_banner {
+        height: 94px;
+    }
+
+    .category_banner_blur {
+        padding: 12px 69px 20px 69px;
+        font-size: 26px;
+    }
+}

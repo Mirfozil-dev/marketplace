@@ -1,0 +1,505 @@
+.buyer_home_wrapper {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background: #264753;
+}
+
+.buyer_home {
+    border-radius: 35px 0 0 35px;
+    background: #E3FFED;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.buyer_home_content {
+    width: 75%;
+    padding: 17px 53px 26px 54px;
+    margin-right: 25%;
+}
+
+.buyer_home_search_input {
+    height: 38px;
+    background: white;
+    padding: 9px 20px;
+    border-radius: 8px;
+}
+
+.buyer_home_search_input input {
+    border: none;
+    outline: none !important;
+}
+
+.switch_role_btn {
+    border-radius: 5px;
+    border: none;
+    outline: none !important;
+    background: #264753;
+    color: white;
+    font-size: 11px;
+    padding: 12px 30px;
+    margin-left: 43px;
+}
+
+.switch_lang_btn {
+    background: none;
+    outline: none !important;
+    border: none;
+    color: #264753;
+    font-size: 14px;
+    margin-left: 27px;
+
+}
+
+.switch_lang_btn i {
+    font-size: 10px;
+    margin: 5px 0 0 4px;
+}
+
+.buyer_home_sidebar {
+    width: 25%;
+    height: 100%;
+    background: white;
+    padding: 46px 28px 18px 28px;
+    position: fixed;
+    right: 0;
+}
+
+.buyer_home_welcome {
+    height: 185px;
+    border-radius: 15px;
+    background: white;
+    margin-top: 19px;
+}
+
+.buyer_home_welcome h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.buyer_home_welcome h2 span {
+    color: #007591;
+}
+
+.buyer_home_welcome_content {
+    padding: 22px 0 29px 35px;
+    width: 50%;
+}
+
+.buyer_welcome_wish {
+    font-size: 15px;
+    color: #606060;
+}
+
+.buyer_welcome_tasks {
+    color: #AAAAAA;
+    font-size: 15px;
+}
+
+.buyer_weekly_report h2 {
+    font-size: 22px;
+    color: #00313D;
+    font-weight: bold;
+    margin-top: 9px;
+}
+
+.report_card_wrapper {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    height: 175px;
+    padding: 0 15px;
+}
+
+.buyer_recommendation_quotations {
+    margin-top: 20px;
+}
+
+.buyer_recommendation_quotations_header h2 {
+    font-size: 22px;
+    color: #00313D;
+    font-weight: bold;
+}
+
+.buyer_recommendation_quotations_header p {
+    color: #626262;
+    font-size: 12px;
+    margin-left: 22px;
+}
+
+.quotation_table_name {
+    width: 20%;
+}
+
+.quotation_table_product {
+    width: 10%;
+}
+
+.quotation_table_quantity {
+    width: 7%;
+}
+
+.quotation_table_date {
+    width: 8%;
+}
+
+.quotation_table_time {
+    width: 7%;
+}
+
+.quotation_table_location {
+    width: 16%;
+}
+
+.quotation_table_head_item p {
+    font-size: 12px;
+    color: #00313D;
+}
+
+.quotation_table_head_item img {
+    margin: 3px 0 0 3px;
+}
+
+.quotation_table_row {
+    background: white;
+    z-index: 1;
+    border-radius: 8px;
+    height: 54px;
+    margin-top: 13px;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.quotation_avatar {
+    width: 27px;
+    height: 27px;
+    border-radius: 5px;
+    margin-right: 19px;
+}
+
+.quotation_table_body_item p {
+    font-size: 13px;
+    color: #00313D;
+    font-weight: 600;
+}
+
+.quotation_table_more_btn {
+    background: none;
+    border: none;
+    outline: none !important;
+    font-weight: 600;
+    color: #00313D;
+}
+
+.quotation_table_settings_btn {
+    width: 23px;
+    height: 23px;
+    background: white;
+    border-radius: 4px;
+    border: none;
+    outline: none !important;
+}
+
+.quotation_table_row:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    background: #00313d;
+    position: absolute;
+    border-radius: 8px;
+    z-index: -1;
+    transition: .3s;
+}
+
+.quotation_table_row:hover:before {
+    top: 0;
+}
+
+.quotation_table_row:hover .quotation_table_body_item p {
+    color: white;
+}
+
+.buyer_home_sidebar_header button {
+    width: 17px;
+    height: 17px;
+    background: none;
+    outline: none !important;
+    border: none;
+    position: relative;
+    margin-right: 18px;
+    padding: 0;
+}
+
+.buyer_home_sidebar_header button div {
+    top: 5px;
+    left: 11px;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #FF1D40;
+}
+
+.buyer_home_sidebar_header h5 {
+    font-size: 17px;
+    color: #00313D;
+    font-weight: bold;
+}
+
+.buyer_home_sidebar_header p {
+    font-size: 8px;
+    color: #707070;
+}
+
+.buyer_avatar {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+
+.buyer_home_sidebar_nav {
+    margin-top: 31px;
+}
+
+.buyer_home_sidebar_nav button {
+    background: none;
+    border: none;
+    outline: none !important;
+    font-size: 9px;
+    color: #00313D;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.buyer_home_sidebar_nav button img {
+    margin-right: 7px;
+    width: 15px;
+}
+
+.buyer_home_monthly_report {
+    margin-top: 34px;
+    color: #00313D;
+}
+
+.buyer_home_monthly_report h2 {
+    font-size: 15px;
+}
+
+.monthly_report_card_wrapper {
+    width: 78px;
+    height: 96px;
+}
+
+.monthly_report_card_row {
+    margin-top: 15px;
+}
+
+.buyer_recommended {
+    height: 187px;
+    margin-top: 24px;
+}
+
+.buyer_recommended h2 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #00313D;
+}
+
+.buyer_recommend_card_wrapper {
+    margin-bottom: 5px;
+    height: 68px;
+}
+
+.need_help_btn {
+    width: 152px;
+    height: 42px;
+    background: #FFF3B0;
+    border: solid #E19F3E;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #00313D;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.buyer_recommended .row {
+    margin: 0 -3px !important;
+}
+
+.buyer_recommended .row .col-4 {
+    padding: 3px !important;
+}
+
+.mobile_sidebar_open_btn {
+    background: none;
+    padding: 0;
+    border: none;
+    outline: none !important;
+    cursor: pointer;
+}
+
+.buyer_mobile_sidebar {
+    width: 395px;
+    height: 768px;
+    backdrop-filter: blur(30px) brightness(113%);
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 15px 36px 18px 38px;
+    z-index: -1;
+    opacity: 0;
+    transition: .3s;
+}
+
+.buyer_mobile_sidebar.active {
+    z-index: 2;
+    opacity: 1;
+}
+
+.mobile_sidebar_close_btn {
+    background: none;
+    border: none;
+    outline: none !important;
+    padding: 0;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media (max-width: 1240px) {
+    .buyer_home_welcome_content {
+        width: 60%;
+    }
+
+    .buyer_home_content {
+        padding: 17px 53px 26px 24px;
+    }
+
+    .buyer_home_sidebar {
+        padding: 46px 18px 18px 18px;
+    }
+
+    .monthly_report_card_wrapper {
+        width: 68px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .buyer_home_wrapper {
+        width: 100% !important;
+    }
+
+    .buyer_home_sidebar {
+        display: none !important;
+    }
+
+    .buyer_home_content {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .buyer_home {
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .buyer_home_welcome_content {
+        padding: 20px 0 21px 15px;
+    }
+
+    .buyer_mobile_sidebar {
+        padding: 15px 26px 18px 38px;
+    }
+
+    .buyer_home_content {
+        padding: 17px 10px 27px 10px;
+    }
+
+    .buyer_home_search_input {
+        width: 168px;
+    }
+
+    .switch_role_btn {
+        display: none;
+    }
+
+    .mobile_sidebar_open_btn {
+        width: 20px;
+        height: 12px;
+        margin-top: 10px;
+    }
+
+    .buyer_home_search_input input {
+        width: 100px;
+        font-size: 11px;
+    }
+
+    .buyer_home_welcome {
+        height: 96px;
+        border-radius: 10px;
+    }
+
+    .buyer_home_welcome h2 {
+        font-size: 18px;
+    }
+
+    .buyer_home_welcome p {
+        font-size: 12px;
+        color: #AAAAAA;
+    }
+
+    .buyer_weekly_report h2 {
+        font-size: 16px;
+    }
+
+    .buyer_weekly_report .row {
+        overflow-x: scroll !important;
+        overflow-y: hidden;
+        flex-wrap: nowrap !important;
+        padding: 0 10px;
+    }
+
+    .buyer_weekly_report .row::-webkit-scrollbar {
+        display: none;
+    }
+
+    .report_card_wrapper {
+        width: 85px;
+        height: 111px;
+        padding: 0 5px;
+    }
+
+    .buyer_recommendation_quotations_header {
+        flex-wrap: wrap;
+    }
+
+    .buyer_recommendation_quotations_header h2 {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .buyer_recommendation_quotations_header p {
+        font-size: 12px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .buyer_mobile_sidebar {
+        height: 700px;
+        padding: 5px 36px 18px 38px;
+    }
+
+    .buyer_home_monthly_report {
+        margin-top: 26px;
+    }
+
+    .calendar_body {
+        margin-top: 25px;
+    }
+
+    .buyer_recommended {
+        margin: 10px;
+    }
+}

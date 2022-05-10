@@ -1,0 +1,31 @@
+.category_card {
+    background: white;
+    border-radius: 0 25px;
+    padding: 0 10px;
+}
+
+.category_card img {
+    width: 28px;
+}
+
+.category_card p {
+    font-size: 13px;
+    color: #00313D;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 767px) {
+    .category_card {
+        border-radius: 0 15px;
+    }
+
+    .category_card p {
+        font-size: 12px;
+    }
+
+    .category_card img {
+        width: 21px;
+    }
+}

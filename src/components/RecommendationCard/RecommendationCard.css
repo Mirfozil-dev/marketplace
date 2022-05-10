@@ -1,0 +1,138 @@
+.recommendation_card {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background: white;
+
+}
+
+.recommendation_card_img_wrapper {
+    border-radius: 5px 5px 0 0;
+    height: 135px;
+    overflow: hidden;
+    position: relative;
+}
+
+.recommendation_card h6 {
+    padding: 0 10px 0 11px;
+    margin: 9px 0 0 0;
+    font-size: 9px;
+    color: #00313D;
+}
+
+.recommendation_card p {
+    padding: 0 10px 0 11px;
+    font-size: 5px;
+    color: #626262;
+}
+
+.recommendation_card_nav p {
+    padding: 0;
+    color: #00313D;
+    font-weight: bold;
+    font-size: 9px;
+}
+
+.recommendation_card_nav {
+    padding: 0 10px 8px 11px;
+}
+
+.recommendation_card_nav button {
+    width: 12px;
+    margin-left: 10px;
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none !important;
+}
+
+.recommendation_card_img {
+    border-radius: 5px 5px 0 0;
+    transition: .3s;
+}
+
+.recommendation_card_img_wrapper:hover .recommendation_card_img {
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+.recommendation_card_img_buy {
+    position: absolute;
+    height: 25px;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.2);
+    bottom: 0;
+    z-index: 0;
+    opacity: 0;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 2px;
+    transition: .3s;
+    font-size: 10px;
+}
+
+.recommendation_card_img_wrapper:hover .recommendation_card_img_buy {
+    z-index: 1;
+    opacity: 1;
+}
+
+/*@media (max-width: 1024px) {*/
+/*    .recommendation_card {*/
+/*        background: rgba(255, 255, 255, 0.3);*/
+/*    }*/
+
+/*    .recommendation_card_img_wrapper {*/
+/*        height: 135px;*/
+/*    }*/
+
+/*    .recommendation_card h6 {*/
+/*        margin: 0;*/
+/*        padding-left: 10px;*/
+/*        font-size: 17px;*/
+/*    }*/
+
+/*    .recommendation_card p {*/
+/*        margin-top: 0;*/
+/*        padding-left: 10px;*/
+/*    }*/
+
+/*    .recommendation_card_nav button {*/
+/*        width: 30px;*/
+/*        height: 30px;*/
+/*    }*/
+
+/*    .recommendation_card_img_buy {*/
+/*        height: 30px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 767px) {*/
+/*    .recommendation_card_img_wrapper {*/
+/*        height: 145px;*/
+/*    }*/
+
+/*    .recommendation_card {*/
+/*        background: none;*/
+/*    }*/
+
+/*    .recommendation_card h6 {*/
+/*        font-size: 14px;*/
+/*        padding-left: 0;*/
+
+/*    }*/
+
+/*    .recommendation_card p {*/
+/*        font-size: 12px;*/
+/*        padding-left: 0;*/
+/*    }*/
+
+/*    .recommendation_card_nav button {*/
+/*        width: 25px;*/
+/*        height: 25px;*/
+/*    }*/
+
+/*    .recommendation_card_img_buy {*/
+/*        height: 25px;*/
+/*        font-size: 14px;*/
+/*    }*/
+/*}*/

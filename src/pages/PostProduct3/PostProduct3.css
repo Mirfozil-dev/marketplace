@@ -1,0 +1,151 @@
+.post_product3_page_wrapper {
+    background: #264753;
+}
+
+.post_product3_page {
+    border-radius: 35px 0 0 35px;
+    background: #E3FFED;
+    padding: 53px 43px 38px 43px;
+}
+
+.display_new_product_card {
+    width: 1020px;
+    height: 167px;
+    background: white;
+    border-radius: 6px;
+    margin-top: 65px;
+    padding: 18px 32px 21px 32px;
+}
+
+.display_new_product_card h4 {
+    font-size: 20px;
+    font-weight: 650;
+    color: #00313D;
+    margin: 0;
+}
+
+.display_new_product_card h5 {
+    font-size: 15px;
+    font-weight: 650;
+    color: #898989;
+    margin-bottom: 4px;
+}
+
+.display_new_product_card p {
+    color: #9D9D9D;
+    font-size: 12px;
+}
+
+.display_new_product_card button {
+    height: 34px;
+    padding: 0 20px;
+    color: #00313D;
+    background: #ADFFD0;
+    border: solid #00D008 2px;
+    border-radius: 21px;
+    font-size: 14px;
+    font-weight: 550;
+    margin: auto 20px 0 0;
+    outline: none !important;
+    display: inline-block;
+}
+
+.new_product_info {
+    margin-top: 33px;
+}
+
+.new_product_info h4 {
+    font-size: 20px;
+    font-weight: 650;
+    color: #00313D;
+}
+
+.new_product_info_card {
+    margin-top: 10px;
+    width: 1020px;
+    height: 161px;
+    background: white;
+    border-radius: 6px;
+    color: #00313D;
+    font-size: 12px;
+}
+
+.attend_training_title {
+    margin-top: 38px;
+    font-size: 15px;
+    font-weight: 650;
+    color: #898989;
+}
+
+.new_product_info_card_header {
+    height: 44px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 15px rgba(182, 182, 182, 0.5);
+    padding-left: 32px;
+    font-weight: 600;
+}
+
+.new_product_info_card_body {
+    height: calc(100% - 44px);
+    padding-left: 32px;
+}
+
+.new_product_name {
+    flex: 4;
+}
+
+.new_product_price {
+    flex: 2;
+}
+
+.new_product_owner {
+    flex: 2;
+}
+
+.new_product_updated {
+    flex: 2;
+}
+
+.new_product_status {
+    flex: 2;
+}
+
+.new_product_action {
+    flex: 2;
+}
+
+.new_product_name img {
+    width: 53px;
+    height: 53px;
+    border-radius: 9px;
+}
+
+.new_product_name p {
+    width: 60%;
+    font-weight: 550;
+    margin-left: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.display_new_product_card a:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    .display_new_product_card {
+        width: 100%;
+    }
+
+    .new_product_info_card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .post_product3_page {
+        border-radius: 0;
+    }
+}

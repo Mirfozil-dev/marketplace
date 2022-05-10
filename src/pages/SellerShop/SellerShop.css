@@ -1,0 +1,23 @@
+.seller_shop_wrapper {
+    background: #264753;
+}
+
+.seller_shop_page {
+    border-radius: 35px 0 0 35px;
+    background: #E3FFED;
+    padding: 29px 0 61px 23px;
+}
+
+.seller_shop_sidebar {
+    width: 20%;
+}
+
+.seller_shop_navigation h5 {
+    font-size: 20px;
+    color: #00313D;
+    font-weight: 550;
+}
+
+.seller_shop {
+    width: 75%;
+}

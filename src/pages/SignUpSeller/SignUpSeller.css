@@ -1,0 +1,173 @@
+.sign_up_seller_content {
+    background: #E9FDFD;
+    border-radius: 17px;
+    padding: 28px 46px 53px 47px;
+    margin-top: 31px;
+    margin-bottom: 18px;
+}
+
+.sign_up_seller_form {
+    width: 35%;
+}
+
+.sign_up_seller_form form {
+    width: 293px;
+}
+
+.sign_up_seller_welcome {
+    width: 65%;
+    position: relative;
+}
+
+.sign_up_seller_welcome div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 31px;
+}
+
+.sign_up_seller_welcome div h1 {
+    font-size: 46px;
+    color: #00313D;
+}
+
+.sign_up_seller_welcome div h3 {
+    color: #838383;
+    font-size: 25px;
+}
+
+.sign_up_seller_form h3 {
+    font-size: 25px;
+    color: #00313D;
+    margin-bottom: 16px;
+}
+
+.sign_up_seller_input {
+    height: 37px;
+    padding: 0 20px;
+    font-size: 13px;
+    border-radius: 31px;
+    border: solid #5FA3C5;
+    outline: none !important;
+    margin-bottom: 7px;
+    background: white;
+}
+
+.sign_up_seller_input input[type="file"] {
+    display: none;
+}
+
+.sign_up_seller_textarea {
+    height: 118px;
+    border: solid #5FA3C5;
+    resize: none;
+    border-radius: 11px;
+    outline: none;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.sign_up_seller_textarea::-webkit-scrollbar {
+    display: none;
+}
+
+.sign_up_seller_checkbox {
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+}
+
+.seller_signup_btn {
+    width: 98px;
+    height: 31px;
+    border-radius: 6px;
+    outline: none !important;
+    background: #5FA3C5;
+    color: white;
+    border: #5FA3C5;
+}
+
+.visible_md {
+    display: none !important;
+}
+
+@media (max-width: 1200px) {
+    .sign_up_seller_welcome div {
+        top: 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sign_up_seller_form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 14px;
+    }
+
+    .visible_lg {
+        display: none !important;
+    }
+
+    .visible_md {
+        display: flex !important;
+    }
+
+    .sign_up_seller_welcome {
+        width: 100%;
+    }
+
+    .sign_up_seller_welcome div {
+        top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .sign_up_seller_welcome div {
+        top: -15px;
+    }
+
+    .sign_up_seller_welcome div h1 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .sign_up_seller_welcome div h3 {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .sign_up_seller_content {
+        border-radius: 12px;
+        padding: 23px 12px 120px 12px;
+        margin-top: 7px;
+    }
+
+    .sign_up_seller_form h3 {
+        font-size: 20px;
+    }
+
+    .sign_up_seller_input {
+        height: 34px;
+        font-size: 11px;
+        padding: 0 18px;
+    }
+
+    .sign_up_seller_textarea {
+        height: 108px;
+        font-size: 12px;
+    }
+
+    .sign_up_seller_form_footer p {
+        font-size: 12px;
+    }
+
+    .seller_signup_btn {
+        width: 90px;
+        height: 28px;
+        border-radius: 6px;
+        font-size: 12px;
+    }
+}

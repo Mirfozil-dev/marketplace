@@ -1,0 +1,145 @@
+.buyer_orders_wrapper {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background: #264753;
+}
+
+.buyer_orders_page {
+    border-radius: 35px 0 0 35px;
+    background: #E3FFED;
+    height: 100%;
+    min-height: 100vh;
+    padding: 36px 46px 35px 34px;
+}
+
+.buyer_orders_main_content {
+    width: 75%;
+}
+
+.buyer_orders h5 {
+    font-size: 24px;
+    color: #00313D;
+    font-weight: 650;
+    margin-top: 23px;
+}
+
+.buyer_orders_table_head {
+    padding: 14px 32px;
+    background: white;
+    border-radius: 6px 6px 0 0;
+    font-size: 12px;
+    color: #00313D;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.buyer_orders_product {
+    flex: 3;
+}
+
+.buyer_orders_product p {
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.buyer_orders_price {
+    flex: 2;
+}
+
+.buyer_orders_owner {
+    flex: 2;
+}
+
+.buyer_orders_purchased {
+    flex: 2;
+}
+
+.buyer_orders_level {
+    flex: 2;
+}
+
+.buyer_orders_status {
+    flex: 2;
+}
+
+.buyer_orders_action {
+    flex: 1;
+}
+
+.buyer_orders_table_item {
+    padding: 24px 32px;
+    background: white;
+    border-radius: 6px;
+    margin-bottom: 9px;
+    font-size: 12px;
+    font-weight: 550;
+    color: #00313D;
+}
+
+.buyer_orders_product img {
+    width: 53px;
+    height: 53px;
+}
+
+.buyer_orders_action button {
+    border: none;
+    background: none;
+    outline: none !important;
+    color: #09698D;
+    font-size: 20px;
+}
+
+.buyer_orders_sidebar {
+    width: 20%;
+}
+
+.buyer_orders_calendar {
+    max-width: 200px;
+}
+
+.buyer_orders_calculator {
+    width: 200px;
+}
+
+.buyer_purchased_products h5 {
+    margin-top: 42px;
+    font-size: 14px;
+    font-weight: 650;
+    color: #00313D;
+}
+
+.buyer_orders_mobile_sidebar {
+    height: 720px;
+    backdrop-filter: blur(30px) brightness(113%);
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0;
+    transition: .3s;
+    padding: 23px 36px 36px 55px;
+}
+
+.buyer_orders_mobile_sidebar.active {
+    opacity: 1;
+    z-index: 2;
+}
+
+@media (max-width: 1024px) {
+    .buyer_orders_page {
+        border-radius: 0;
+    }
+
+    .buyer_orders_main_content {
+        width: 100%;
+    }
+
+    .buyer_orders_weather_header {
+        margin-top: 49px;
+    }
+}

@@ -1,0 +1,285 @@
+.btn_nav {
+    width: 30%;
+}
+
+.custom_icon {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    color: white;
+    border: solid #fff;
+}
+
+.currency_lang {
+    color: white;
+    transition: 0.3s;
+    position: relative;
+}
+
+.currency_lang:hover {
+    color: #009589 !important;
+}
+
+.currency_lang:hover .currency_dropdown {
+    opacity: 1;
+    z-index: 1;
+}
+
+.currency_lang_icon {
+    transition: 0.3s;
+}
+
+.currency_lang:hover .currency_lang_icon {
+    transform: rotate(-40deg);
+    color: #009589 !important;
+    border: solid #009589 !important;
+}
+
+.sell_product {
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.sell_product_icon {
+    transition: 0.3s;
+}
+
+.sell_product:hover {
+    color: #009589 !important;
+}
+
+.sell_product:hover .sell_product_icon {
+    transform: rotate(-40deg);
+    color: #009589 !important;
+    border: solid #009589 !important;
+}
+
+.sign_in {
+    color: white;
+    position: relative;
+    transition: 0.3s;
+}
+
+.sign_in:hover {
+    color: #009589 !important;
+}
+
+.sign_in_icon svg path {
+    transition: 0.3s;
+}
+
+.sign_in:hover .sign_in_icon svg path {
+    stroke: #009589;
+}
+
+.sign_in_icon {
+    transition: 0.3s;
+}
+
+.sign_in:hover .sign_in_icon {
+    transform: rotate(-40deg);
+}
+
+.help {
+    transition: 0.3s;
+    color: white;
+}
+
+.help:hover {
+    color: #009589 !important;
+}
+
+.help_icon svg path {
+    transition: 0.3s;
+}
+
+.help:hover .help_icon svg path {
+    fill: #009589;
+}
+
+.help_icon {
+    transition: 0.3s;
+}
+
+.help:hover .help_icon {
+    transform: rotate(-40deg);
+}
+
+.currency_dropdown {
+    opacity: 0;
+    position: absolute;
+    left: -50px;
+    top: 70px;
+    width: 200px;
+    height: 200px;
+    background: rgba(100%, 100%, 100%, 0.7);
+    backdrop-filter: blur(8px);
+    border-radius: 5px;
+    color: #00313d !important;
+    transition: 0.3s;
+    padding: 10px;
+    z-index: -1;
+}
+
+.currency_submit {
+    border: none;
+    background: #00313d;
+    color: #ffffff;
+    outline: none;
+}
+
+.select {
+    color: black;
+    position: relative;
+    transition: opacity 1s;
+}
+
+.select__header {
+    cursor: pointer;
+    border: solid #009589 2px;
+    border-radius: 5px;
+    display: flex;
+    transition: opacity 1s;
+}
+
+.select__current {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1s;
+}
+
+.select__body.is-active {
+    z-index: 1;
+    opacity: 1;
+}
+
+.select__icon {
+    transition: opacity 1s;
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    height: 30px;
+    text-align: center;
+    width: 20px;
+}
+
+.select__item:hover {
+    color: #009589;
+}
+
+.select__item_active {
+    background: #e3ffed;
+}
+
+.select__icon i {
+    transition: opacity 1s;
+}
+
+.select__body {
+    transition: opacity 1s;
+    opacity: 0;
+    z-index: -1;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    padding: 4px 8px 10px 8px;
+}
+
+.select__item {
+    cursor: pointer;
+    transition: opacity 1s;
+    height: 30px;
+}
+
+.select__item img {
+    width: 26px;
+    padding: 0 4px;
+}
+
+.sign_in_dropdown {
+    opacity: 0;
+    position: absolute;
+    right: -50px;
+    top: 70px;
+    width: 200px;
+    height: 200px;
+    background: rgba(100%, 100%, 100%, 0.7);
+    backdrop-filter: blur(8px);
+    border-radius: 5px;
+    border: solid 2px #00313d;
+    color: #00313d !important;
+    transition: 0.3s;
+    padding: 10px;
+    z-index: -1;
+}
+
+.sign_in:hover .sign_in_dropdown {
+    opacity: 1;
+    z-index: 1;
+}
+
+.nav_sign_in_btn {
+    border: solid 1px #00313d;
+    border-radius: 5px;
+    color: #00313d;
+    font-size: 0.7rem;
+    padding: 5px 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav_sign_in_btn:hover {
+    color: #ffffff;
+    background: #00313d;
+}
+
+@media (max-width: 1350px) {
+
+    .btn_nav {
+        width: 38%;
+    }
+
+}
+
+@media (max-width: 1100px) {
+    .currency_lang_icon, .sell_product_icon, .sign_in_icon svg, .help_icon svg {
+        width: 40px;
+        height: 40px;
+        font-size: 0.8rem;
+    }
+
+    .currency_lang p, .sell_product p, .sign_in p, .help p {
+        font-size: .7rem;
+    }
+
+    .btn_nav {
+        width: 40%;
+    }
+
+    .currency_lang, .sell_product, .sign_in, .help {
+        margin: 0 10px !important;
+    }
+
+}
+
+@media (max-width: 850px) {
+    .currency_lang_icon, .sell_product_icon, .sign_in_icon svg, .help_icon svg {
+        width: 37px;
+        height: 37px;
+        font-size: 0.8rem;
+    }
+
+    .currency_lang p, .sell_product p, .sign_in p, .help p {
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .btn_nav {
+        display: none !important;
+    }
+}

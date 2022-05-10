@@ -1,0 +1,160 @@
+.company_card {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.50);
+    background: white;
+    border-radius: 10px;
+    padding: 0 26px 19px 26px;
+    transition: .5s;
+    transform-style: preserve-3d;
+}
+
+.company_card h3 {
+    color: #00313d;
+    font-size: 29px;
+}
+
+.company_card p {
+    color: #717171;
+    font-size: 11px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.company_card_img {
+    z-index: 1;
+    padding: 20% 24% 10% 24%;
+    height: 45%;
+    perspective: 500px;
+}
+
+.company_card_body {
+    padding: 41px 0 15px 0;
+}
+
+.company_card_rating {
+    width: 83px;
+    height: 14px;
+}
+
+.company_card_btn {
+    background: none;
+    border: #00313d solid 2px;
+    outline: none;
+    color: #00313d;
+    border-radius: 4px;
+    padding: 0 22px;
+    font-weight: bold;
+    margin-top: auto;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.company_card_img img {
+    z-index: 1;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.card_active {
+    transform: rotateY(160deg) translateY(-20px);
+}
+
+.card_content_wrapper {
+    transition: .3s;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.more_content {
+    width: 100%;
+    white-space: normal !important;
+    text-overflow: clip !important;
+    overflow: visible;
+    transform: rotateY(180deg);
+}
+
+.more_content p {
+    white-space: normal !important;
+    text-overflow: clip !important;
+    overflow: visible;
+}
+
+.active_content {
+    opacity: 1;
+    z-index: 1;
+}
+
+.content_hidden {
+    width: 0 !important;
+    height: 0 !important;
+    opacity: 0;
+    z-index: -2;
+}
+
+.img_active {
+    transform: rotateY(200deg) !important;
+}
+
+.company_card_btn:hover {
+    background: #00313d;
+    color: #ffffff;
+}
+
+.company_card_body_item h5 {
+    color: #00313d;
+    font-size: 15px;
+}
+
+.company_card_body_item p {
+    color: #717171;
+    font-size: 18px;
+}
+
+@media (max-width: 767px) {
+    .company_card {
+        padding: 0 20px 17px 20px;
+        border-radius: 5px;
+    }
+
+    .company_card h3 {
+        font-size: 10px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    .more_content h3 {
+        margin: 10px 0;
+    }
+
+    .company_card p {
+        font-size: 7px;
+    }
+
+    .company_card_body {
+        padding: 21px 0 19px 0;
+    }
+
+    .company_card_rating {
+        width: 53px;
+        height: 7px;
+    }
+
+    .company_card_btn {
+        margin-top: auto;
+        padding: 0 14px;
+        font-size: 6px;
+    }
+
+    .company_card_body_item h5 {
+        font-weight: bold;
+        font-size: 6px;
+    }
+
+    .company_card_body_item p {
+        font-size: 7px;
+    }
+}

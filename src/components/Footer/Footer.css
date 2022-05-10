@@ -1,0 +1,132 @@
+.footer_wrapper {
+    background: #00313D;
+    overflow-x: hidden !important;
+    min-height: 453px;
+    padding-top: 112px;
+}
+
+.company_info {
+    width: 20%;
+}
+
+.company_info p {
+    font-size: 16px;
+}
+
+.company_info p, .pages p {
+    margin-top: 10%;
+}
+
+.contacts h5, .subscribe_news h5 {
+    font-size: 30px;
+    margin-bottom: 10% !important;
+}
+
+.pages {
+    width: 15%;
+}
+
+.pages h5 {
+    font-size: 30px;
+    margin-bottom: 25%;
+}
+
+.pages p {
+    font-size: 16px;
+}
+
+.contacts {
+    width: 35%;
+    height: 80%;
+}
+
+.contacts_data div {
+    margin-top: 3%;
+}
+
+.contacts p {
+    width: 85%;
+    font-size: 16px;
+}
+
+.subscribe_news {
+    width: 30%;
+}
+
+.subscribe_news p {
+    font-size: 16px;
+    width: 80%;
+}
+
+.subscribe_input {
+    margin-top: 5%;
+    width: 80%;
+    height: 49px;
+    border-radius: 75px;
+    background: white;
+    padding: 0 1px 0 10px;
+}
+
+.subscribe_input input {
+    width: 50%;
+    border: none;
+    outline: none;
+}
+
+.subscribe_input button {
+    width: 50%;
+    outline: none;
+    border-radius: 75px;
+    padding: 0 30px;
+    height: 95%;
+    border: none;
+    background: #00313D;
+}
+
+.copyrights {
+    margin-top: 5%;
+}
+
+@media (max-width: 1024px) {
+    .company_info, .pages, .contacts, .subscribe_news {
+        width: 50%;
+    }
+
+    .pages h5 {
+        margin-bottom: 10%;
+    }
+
+    .contacts, .subscribe_news {
+        margin: 10% 0;
+    }
+
+    .copyrights {
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer_wrapper {
+        padding-top: 47px;
+    }
+
+    .company_info, .pages, .contacts, .subscribe_news, .copyrights {
+        width: 100% !important;
+    }
+
+    .company_info h4, .pages h4, .contacts h4, .subscribe_news h4 {
+        font-size: 20px;
+    }
+
+    .pages {
+        margin-top: 10%;
+    }
+
+    .company_info p, .pages p, .contacts p, .subscribe_news p {
+        font-size: 14px;
+    }
+
+    .copyrights {
+        font-size: 9px;
+    }
+}
